@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function letPlay(answer) {
+        let result = "";
+        if (answer){
+            result = "Excelent. We'll play a nice game of chess"
+        } else {
+            result = "Maybe later then"
+        }
+        return result;
+    }
+
+    let play = confirm("Shall we play the game");
+    let theanswer = letPlay(play);
+    alert(theanswer)
+</script>
+</body>
+</html>
